@@ -33,7 +33,7 @@ def get_reminder(divisor, divident):
         temp = xor(divisor, temp)
 
     else:
-        temp = ("0"*pick, temp)
+        temp = xor("0"*pick, temp)
 
     return temp
 
